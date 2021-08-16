@@ -5,9 +5,9 @@ Primitive Types
 functions
 Objects
 arrays
-Closures
-Bind call apply
 this
+Bind call apply
+Closures
 Scope of Objects
 Prototypes
 Class
@@ -235,6 +235,11 @@ var array  = new Array(100000) - length will not create any memory
 
 array index starts from zero
 
+this
+-----
+If function is outside then 'this' becomes global object
+if function is inside an object then 'this' becomes that object
+
 Closure (28/09/2020)
 ----------
 Inner functions having access to the variables of outer functions
@@ -319,9 +324,9 @@ Every Object which is created using object literal syntax or constructor syntax
 with new keyword includes __proto__ property that points to prortotype object of
 a function that created this Object
 
-Inheritance (1/10/2020)
+Inheritance 
 -----------------------
-One Object get access to the properties and methods of another object.
+One Object gets access to the properties and methods of another object.
 
 In Javascript inherirtance is supported by using prototype object. 
 This is also called prototypal inheritance.

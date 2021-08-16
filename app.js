@@ -19,3 +19,7 @@ console.log(value, typeof value)
 
 var output = null + " Hey"
 console.log(output, typeof output)
+
+
+console.log(1=="1") // Only Check the Value
+console.log(1==="1") // Check the Value and Type
