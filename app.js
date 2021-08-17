@@ -23,3 +23,11 @@ console.log(output, typeof output)
 
 console.log(1=="1") // Only Check the Value
 console.log(1==="1") // Check the Value and Type
+
+setTimeout(function(){
+   console.log('Hello')
+}, 3000)
+
+setInterval(function(){
+   console.log('How are you')
+}, 3000)
